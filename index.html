@@ -10,7 +10,8 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="portfolio.css" rel="stylesheet">
-
+    <script src="https://use.fontawesome.com/8906b58c0a.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,47 +21,59 @@
 
   </head>
   <body>
+    <div id="header_container">
+     <div id="header_row">
+
+            <h1 id="heading">Eva Revear</h1>
+
+
+            <ul id="social_list">
+              <li><a href="https://github.com/erevear"><i class="fa fa-github fa-2x"></i></a></li>
+              <li><a href="mailto:er1957@nyu.edu"><i class="fa fa-envelope fa-2x"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/eva-revear-b9000068"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            </ul>
+
+      </div>
+      </div>
     <div  class = "section" id = "intro_paragraph">
     <p><h1>Hello</h1>
 My name is Eva. I am an MA student in NYU Journalism’s <a href="http://journalism.nyu.edu/graduate/programs/studio-20-digital-first/">Studio20</a> program where I am studying innovation in digital journalism. Before coming to NYU I attended the University of Washington where I completed a B.A in Communications and a B.S. in Computer Science so most of my studies revolve around the intersection between these two things.
-I’m fascinated by all of the new avenues being explored within digital story telling and am particularly interested in the area of <a href="http://projects.nyujournalism.org/newsliteracy2016/topics/content-management-systems/">newsroom tools and workflows and how they fit together</a>.
-Current projects
-Currently I am focusing a lot on my thesis, a research project in digital preservation that focuses particularly on how data driven news applications can be preserved. I am also working on a full redesign of the NYU Applied Psychology website in partnership with the school web team, as well as  expanding on my work in data story telling for <a href="http://campaign-finance.org">campaign-finance.org</a> with exploration of FEC data using Neo4j and Linkurious. </p>
-Currently I am focusing on my thesis, a research project in digital preservation that examines how data driven news applications can be preserved. I am also working on a full redesign of the NYU Applied Psychology website in partnership with the school web team, as well as  expanding on my work in data story telling for campaign-finance.org with exploration of FEC data using Neo4j and Linkurious.
-<p></p>
-<p><a id="resume_background" href="Resume.pdf">Check out my Resume</a> or see some of my projects below!</p>
-
+I’m fascinated by all of the new avenues being explored within digital story telling and am particularly interested in the area of <a href="http://projects.nyujournalism.org/newsliteracy2016/topics/content-management-systems/">newsroom tools and workflows and how they fit together</a>.</p>
+<h3>Current projects</h3>
+<p>Currently I am focusing a lot on my thesis, a research project in digital preservation that focuses particularly on how data driven news applications can be preserved. I am also working on a full redesign of the NYU Applied Psychology website in partnership with the school web team, as well as  expanding on my work in data story telling for <a href="http://campaign-finance.org">campaign-finance.org</a> with exploration of FEC data using Neo4j and Linkurious. </p>
+<p><a id="resume_link" href="Resume.pdf">CHECK OUT MY RESUME</a> or see some of my projects below!</p>
     </div>
     <div class = "row section" id = "programming_projects">
         <h1>Projects</h1>
+        <h3>Programming & Design</h3>
         <div class="row">
           <div class="col-md-6 project_screen">
-            <img src="language_map_screens.jpg" style="height:250px; width:358px;">
+            <img src="images/language_map_screens.jpg" style="height:250px; width:358px;">
           </div>
           <div class="col-md-6 project_text">
-            <p>New York Values</p>
-            <p>This is a multimedia project produced during the second semester of my MA program; it is built with jQuery, HTML, CSS and firebase. Recipient of the 2016 Online News Association-The David Teeuwen Student Journalism Award, Large
+            <p class="project_title">New York Values</p>
+            <p>This is a multimedia project produced during the second semester of my MA program; it is built with jQuery, HTML, CSS and firebase. Recipient of the 2016 Online News Association-The David Teeuwen Student Journalism Award, Large</p>
                 <p><a href="https://github.com/igorecarrasco/NYCVAL-NEWGITHUB">Public repository</a></p>
                 <p><a href="https://NYC-Values.com">Site</a> </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 project_screen">
-            <img src="bailiwick_graph_screen.jpg" style="height:250px; width:358px;">
+            <img src="images/bailiwick_graph_screen.jpg" style="height:250px; width:358px;">
           </div>
           <div class="col-md-6 project_text">
-            <p>Bailiwick (campaign-finance.org)</p>
+            <p class="project_title">Bailiwick (campaign-finance.org)</p>
             <p>This Django news application gives a comprehensive look of campaign finance in
             the US. As part of an independent study I wrote data scrapers as well as worked on the D3 visualizations.</p>
-            <p><a href="http://campaign-finance.org">campaign-finance.org</a></p>
+            <p><a href="http://campaign-finance.org">Site</a></p>
           </div>
         </div>
          <div class="row">
           <div class="col-md-6 project_screen">
-            <img src="react_screens.jpg" style="height:250px; width:358px;">
+            <img src="images/react_screens.jpg" style="height:250px; width:358px;">
           </div>
           <div class="col-md-6 project_text">
-            <p>React</p>
+            <p class="project_title">React</p>
             <p>This is a functioning prototype built for the second semester of my MA program for a class  on innovating political coverage. It is a live reaction app that allows users to vote on their     feelings on any given moment during live political events such as debates. It is built using HTML, CSS, jQuery, D3 and firebase. Also conducted UX testing</p>
               <p><a href="https://github.com/igorecarrasco/REACTWEEKEND/tree/master/public">Public repository</a></p>
               <p><a href="https://boiling-heat-8030.firebaseapp.com">Site</a> </p>
@@ -68,24 +81,67 @@ Currently I am focusing on my thesis, a research project in digital preservation
         </div>‹
         <div class="row">
           <div class="col-md-6 project_screen">
-            <img src="tax_photo_screens.jpg">
+            <img src="images/tax_photo_screens.jpg">
           </div>
           <div class="col-md-6 project_text">
-            <p>Tax Photo Entry</p>
+            <p class="project_title">Tax Photo Entry</p>
             <p>This is a Django web application created for NYC Department of Records and Information Services as a data
             entry and editing tool. It consists of a REST API over a Postgres database and jQuery front end. </p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 project_screen">
-            <img src="f_b.jpg" style="height:250px; width:358px;">
+            <img src="images/f_b.jpg" style="height:250px; width:358px;">
           </div>
           <div class="col-md-6 project_text">
-            <p>VenueNext</p>
+            <p class="project_title">VenueNext</p>
             <p>As an intern at VenueNext I worked UI elements for the Ruby on Rails CMS that powers the creation of their app. This is a table that shows Food and Beverage orders as they come up. It is written in React and lets the user sort entries or select for more detail</p>
           </div>
         </div>
 
+    </div>
+    <div class = "row section" id = "writing_reporting_projects">
+      <h3>Writing & Reporting</h3>
+      <div class="row">
+          <div class="project_text">
+            <p class="project_title">Simple Justice</p>
+            <p>This project was a five month long Justice Project my four teammates and I re-investigated the potentially wrongful murder conviction of a local gang member.
+            The project received the 2014 National SPJ Mark of Excellence Award for In-depth Reporting , Small School Division</p>
+                <p><a href="stories/Simple-Justice-Introduction-to-the- case-The-Tacoma-Ledger.pdf">Simple Justice-Introduction to the Case</a></p>
+                <p><a href="stories/More about Irvin Carter Jr. - The Tacoma Ledger.pdf">More about Irvin Carter Jr.</a></p>
+                <p><a href="stories/More about Julius Williams - The Tacoma Ledger.pdf">More about Julius Williams</a></p>
+                <p><a href="stories/Simple Justice - Ballistics Evidence - The Tacoma Ledger.pdf">Simple Justice - Ballistics Evidence </a></p>
+                <p><a href="stories/Simple Justice - A Changing Eyewitness Account - The Tacoma Ledger.pdf">Simple Justice - A Changing Eyewitness Account</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="project_text">
+            <p class="project_title">The News Tribune</p>
+            <p>During my internship at The News Tribune, a daily, and Washington's second largest newspaper, I was able to cover everything from politics to a cross continental
+            ultrasound.</p>
+                <p><a href="stories/From Auburn to Afghanistan A heartbeat heard round the world | Military News | The News Tribune.pdf">From Auburn to Afghanistan/ A heartbeat heard round the world</a></p>
+                <p><a href="stories/Handling growth, parks tax top issues in Bonney Lake elections.pdf">Handling growth, parks tax top issues in Bonney Lake elections</a></p>
+                <p><a href="stories/Former Nordstrom piano man still entertaining the South Sound | Tacoma | The News Tribune.pdf">Former Nordstrom piano man still entertaining the South Sound</a></p>
+            </div>
+        </div>
+    <div class="row">
+      <div class="project_text">
+        <p class="project_title">The University of Washington Tacoma Ledger</p>
+          <p>This is a series, written for the UWT newspaper, about how non-tenure track faculty were often neglected or treated unfairly and how that impacted student learning</p>
+            <p><a href="stories/Is the University of Washington Tacoma Failing to Support Non Tenure Track Faculty - The Tacoma Led.pdf">Is the University of Washington Tacoma Failing to Support Non Tenure Track Faculty?</a></p>
+            <p><a href="stories/Non-tenured Faculty Affects Student Learning - The Tacoma Ledger.pdf">Non-tenured Faculty Affects Student Learning</a></p>
+            <p><a href="stories/Changes May be Coming to University Hiring Policies - The Tacoma Ledger.pdf">Changes May be Coming to University Hiring Policies</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="project_text">
+            <p class="project_title">Post Defiance</p>
+            <p>During my undergrad became a contributor to Tacoma's online only magazine, Post Defiance, which covered local art, events, and Tacomans in general</p>
+                <p><a href="stories/Post Defiance » Chandler O’Leary’s roadside attractions come home to the Handforth Gallery.pdf">Chandler O’Leary’s roadside attractions come home to the Handforth Gallery</a></p>
+                <p><a href="stories/post-defiance-c2bb-bigger-than-civil-rights-rosa-clemente-talks-black-lives-matter-and-what-we-can-do.pdf">Bigger than civil rights: Rosa Clemente talks Black Lives Matter and what we can do to see this fight through</a></p>
+                <p><a href="stories/Post Defiance » Artist Matika Wilbur takes on pervasive racism with Project 562.pdf">Artist Matika Wilbur takes on pervasive racism with Project 562</a></p>
+            </div>
+        </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
